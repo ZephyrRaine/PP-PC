@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: ReferenceImageLibrary
+  m_EditorClassIdentifier: 
+  m_GuidLow: 5438900029218683827
+  m_GuidHigh: 11338665651040755373
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 4821747418119064130
+      m_GuidHigh: 4889142346263283365
+    m_SerializedTextureGuid:
+      m_GuidLow: 8076262273507488734
+      m_GuidHigh: 5353406362478187835
+    m_Size: {x: 0.09, y: 0.090156525}
+    m_SpecifySize: 1
+    m_Name: atari
+    m_Texture: {fileID: 2800000, guid: 754d73dea5bf70143b15d41db91e4b4a, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 4828358038145228639
+      m_GuidHigh: 206042673693190279
+    m_SerializedTextureGuid:
+      m_GuidLow: 9323606208485330041
+      m_GuidHigh: 15728842037883696971
+    m_Size: {x: 0.07, y: 0.07154749}
+    m_SpecifySize: 1
+    m_Name: IMG20200909162139
+    m_Texture: {fileID: 2800000, guid: b2650c791a7281644bf7499c7f1248da, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5685525425886967316
+      m_GuidHigh: 9059688507435687829
+    m_SerializedTextureGuid:
+      m_GuidLow: 6175798163011193772
+      m_GuidHigh: 2318192251212190392
+    m_Size: {x: 0.046, y: 0.051455703}
+    m_SpecifySize: 1
+    m_Name: rond
+    m_Texture: {fileID: 2800000, guid: 5ecacbacd7b555b4b8d290f691df2b20, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5201044264799074900
+      m_GuidHigh: 359924645366727837
+    m_SerializedTextureGuid:
+      m_GuidLow: 11237829802388230970
+      m_GuidHigh: 11500360332914121289
+    m_Size: {x: 0.045, y: 0.046179846}
+    m_SpecifySize: 1
+    m_Name: carre
+    m_Texture: {fileID: 2800000, guid: 29a6133acaaa9bf449da5690ca7c999f, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5337421073472459665
+      m_GuidHigh: 2083563439400363158
+    m_SerializedTextureGuid:
+      m_GuidLow: 14394684637968254351
+      m_GuidHigh: 1880414719983561371
+    m_Size: {x: 0.045, y: 0.044846483}
+    m_SpecifySize: 1
+    m_Name: triangle
+    m_Texture: {fileID: 2800000, guid: 73dec58f3169c7c49b2a09973993181a, type: 3}
