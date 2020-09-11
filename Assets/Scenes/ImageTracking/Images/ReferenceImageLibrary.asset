@@ -45,3 +45,13 @@ MonoBehaviour:
     m_SpecifySize: 1
     m_Name: triangle
     m_Texture: {fileID: 2800000, guid: 73dec58f3169c7c49b2a09973993181a, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 4763320245363537700
+      m_GuidHigh: 2353768394648588426
+    m_SerializedTextureGuid:
+      m_GuidLow: 17677951029617442388
+      m_GuidHigh: 16639291071401071483
+    m_Size: {x: 0.062, y: 0.062}
+    m_SpecifySize: 1
+    m_Name: universe
+    m_Texture: {fileID: 0}
