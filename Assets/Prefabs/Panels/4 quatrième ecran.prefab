@@ -376,7 +376,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c62b68626814bc54ab2ebaa5eb355b91, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  panelPrefab: {fileID: 1696685513636209451, guid: 5ffc448cf311646e6ba4a2a270ff5a59,
+  panelPrefab: {fileID: 1696685513636209451, guid: d8ed0987f4c2c4843bf13be6cb31f702,
     type: 3}
   isReturn: 0
   noTransition: 0
