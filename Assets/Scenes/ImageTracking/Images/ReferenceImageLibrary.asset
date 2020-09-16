@@ -19,9 +19,9 @@ MonoBehaviour:
       m_GuidLow: 4763320245363537700
       m_GuidHigh: 2353768394648588426
     m_SerializedTextureGuid:
-      m_GuidLow: 14394684637968254351
-      m_GuidHigh: 1880414719983561371
-    m_Size: {x: 0.045, y: 0.043870687}
+      m_GuidLow: 11820773552908529330
+      m_GuidHigh: 16177232915590665401
+    m_Size: {x: 0.055, y: 0.055}
     m_SpecifySize: 1
     m_Name: universe
-    m_Texture: {fileID: 2800000, guid: 73dec58f3169c7c49b2a09973993181a, type: 3}
+    m_Texture: {fileID: 2800000, guid: cf71eeb2d2eaa40bb9d48946a01381e0, type: 3}
