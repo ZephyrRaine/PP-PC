@@ -109,7 +109,7 @@ namespace UnityEngine.XR.ARFoundation.Samples
             foreach (var trackedImage in eventArgs.updated)
             {
                 UpdateInfo(trackedImage);
-                trackedImage.transform.rotation = Quaternion.Euler(0f, 0f, 0f);
+                trackedImage.transform.rotation = Quaternion.Euler(0f, trackedImage.transform.rotation.eulerAngles.y, 0f);
             }
         }
     }
