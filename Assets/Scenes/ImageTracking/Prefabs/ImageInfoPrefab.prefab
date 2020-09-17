@@ -442,7 +442,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73e3f0e68bf5f79449a04c1bb20cf87b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  markersTransform: {fileID: 0}
+  markersTransform: {fileID: 789612090421285736}
+  tipsTransform: {fileID: 8587138103863043079}
 --- !u!1 &3350032811901456407
 GameObject:
   m_ObjectHideFlags: 0
