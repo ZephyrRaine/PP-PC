@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1550595568}
   - component: {fileID: 1550595567}
   m_Layer: 5
-  m_Name: Tips RAM
+  m_Name: Tips FAN
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -34,8 +34,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -6.201, y: 3.44}
-  m_SizeDelta: {x: 9.90506, y: 3.2404222}
+  m_AnchoredPosition: {x: -3.366, y: 1.026}
+  m_SizeDelta: {x: 3.16115, y: 1.0341643}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1550595568
 CanvasRenderer:
@@ -279,7 +279,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 789612090421285736}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -348,17 +348,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1490237881376617955}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 8587138103863043079}
-  m_RootOrder: 1
+  m_Father: {fileID: 2955609681378948688}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -14.09, y: -7.39}
-  m_SizeDelta: {x: 10.826878, y: 4.239027}
+  m_AnchoredPosition: {x: -4.17, y: 0.3800006}
+  m_SizeDelta: {x: 2.2635212, y: 0.8862319}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5423921508990443718
 CanvasRenderer:
@@ -474,7 +474,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2955609681378948688}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -548,7 +548,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2955609681378948688}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -625,6 +625,7 @@ RectTransform:
   - {fileID: 346840545043204900}
   - {fileID: 789612090421285736}
   - {fileID: 8587138103863043079}
+  - {fileID: 4819827850240051420}
   - {fileID: 4873159396027496716}
   - {fileID: 6002355511112153320}
   - {fileID: 4935152731720318259}
@@ -729,7 +730,7 @@ RectTransform:
   m_Children:
   - {fileID: 6713942305425927397}
   m_Father: {fileID: 2955609681378948688}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -877,7 +878,6 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1550595566}
-  - {fileID: 4819827850240051420}
   - {fileID: 6164690270352179311}
   m_Father: {fileID: 2955609681378948688}
   m_RootOrder: 2
@@ -1025,8 +1025,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 7177045061110903196}
   - {fileID: 3803963893852765016}
+  - {fileID: 7177045061110903196}
   - {fileID: 3542427569141597802}
   m_Father: {fileID: 2955609681378948688}
   m_RootOrder: 1
@@ -1103,12 +1103,12 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 8587138103863043079}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 4.03, y: -1.87}
-  m_SizeDelta: {x: 9.90506, y: 5.544919}
+  m_AnchoredPosition: {x: -3.3433, y: -3.15}
+  m_SizeDelta: {x: 3.1157398, y: 1.7442117}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1769277693428043031
 CanvasRenderer:
@@ -1233,7 +1233,7 @@ GameObject:
   - component: {fileID: 5146320801205939869}
   - component: {fileID: 9156085170679782898}
   m_Layer: 5
-  m_Name: Bleu Ventilateur
+  m_Name: Bleu FAN
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1247,11 +1247,11 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8222549086996738240}
   m_LocalRotation: {x: 0.000000021187127, y: 0.000000020959101, z: -0.9999968, w: -0.0025438068}
-  m_LocalPosition: {x: 0, y: 0, z: -0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 789612090421285736}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1327,7 +1327,7 @@ RectTransform:
   m_Children:
   - {fileID: 2217848638856488319}
   m_Father: {fileID: 2955609681378948688}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
