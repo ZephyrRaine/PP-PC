@@ -11,10 +11,17 @@ public class ARMarkers : MonoBehaviour
 
     public CustomPanel next;
     public CustomPanel before;
+    public CustomPanel accueil;
     
     private void Awake()
     {
         ChangeCurrentFood(0);
+    }
+
+    public void GoBackAccueil()
+    {
+        InterfaceManager.Instance.ShowScreen(accueil, null, false, 0f);
+        InterfaceManager.Instance.ShowPanels();
     }
 
     public void ChangeCurrentFood(int offset)
