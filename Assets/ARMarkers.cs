@@ -14,9 +14,14 @@ public class ARMarkers : MonoBehaviour
     public CustomPanel before;
     public CustomPanel accueil;
     
-    private void OnEnable()
+    private void Awake()
     {
-        ChangeCurrentFood(current-current);
+        ChangeCurrentFood(0);
+    }
+
+    public void SetToFirst()
+    {
+        ChangeCurrentFood(-current);
     }
 
     public void GoBackAccueil()

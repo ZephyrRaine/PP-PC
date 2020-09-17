@@ -75,6 +75,7 @@ public class InterfaceManager : MonoBehaviour
     public void HidePanels()
     {
         panelsTransform.gameObject.SetActive(false);
+        FindObjectOfType<ARMarkers>()?.SetToFirst();
     }
     public void ShowPanels()
     {
