@@ -5,7 +5,7 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/ARFoundationMenu/Menu.unity
     guid: 904110ab8cef14f7d96c56ca20774e5a
   - enabled: 0

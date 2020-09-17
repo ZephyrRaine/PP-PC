@@ -6,6 +6,7 @@ public class ARMarkers : MonoBehaviour
 {
     public Transform markersTransform;
     public Transform tipsTransform;
+
     int nbScreen = 2;
     int current = 0;
 
@@ -13,9 +14,9 @@ public class ARMarkers : MonoBehaviour
     public CustomPanel before;
     public CustomPanel accueil;
     
-    private void Awake()
+    private void OnEnable()
     {
-        ChangeCurrentFood(0);
+        ChangeCurrentFood(current-current);
     }
 
     public void GoBackAccueil()
