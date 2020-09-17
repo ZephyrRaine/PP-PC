@@ -8,6 +8,10 @@ public class ARMarkers : MonoBehaviour
     public Transform tipsTransform;
     int nbScreen = 2;
     int current = 0;
+
+    public CustomPanel next;
+    public CustomPanel before;
+    
     private void Awake()
     {
         ChangeCurrentFood(0);
@@ -17,9 +21,15 @@ public class ARMarkers : MonoBehaviour
     {
         current += offset;
         if (current < 0)
-            current = 2;
+        {
+            InterfaceManager.Instance.ShowScreen(before, null,false, 0f) ;
+            InterfaceManager.Instance.ShowPanels();
+        }
         if (current > 2)
-            current = 0;
+        {
+            InterfaceManager.Instance.ShowScreen(next, null, false, 0f);
+            InterfaceManager.Instance.ShowPanels();
+        }
 
         for (int i = 0; i < markersTransform.childCount; i++)
         {

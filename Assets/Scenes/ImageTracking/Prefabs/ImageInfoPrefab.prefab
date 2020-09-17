@@ -444,6 +444,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   markersTransform: {fileID: 789612090421285736}
   tipsTransform: {fileID: 8587138103863043079}
+  next: {fileID: 1696685513636209451, guid: d8ed0987f4c2c4843bf13be6cb31f702, type: 3}
+  before: {fileID: 1696685513636209451, guid: fbe98b07e1e394fbea9087d6b18fae96, type: 3}
 --- !u!1 &3350032811901456407
 GameObject:
   m_ObjectHideFlags: 0
