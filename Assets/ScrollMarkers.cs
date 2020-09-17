@@ -24,4 +24,9 @@ public class ScrollMarkers : MonoBehaviour
     {
         marks?.ChangeCurrentFood(1);
     }
+
+    public void Accueil()
+    {
+        marks?.GoBackAccueil();
+    }
 }
